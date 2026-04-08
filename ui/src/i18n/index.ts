@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "./locales/en.json";
+import zhCN from "./locales/zh-CN.json";
 
 const LOCALE_STORAGE_KEY = "paperclip.locale";
 
@@ -15,7 +16,10 @@ function detectLocale(): string {
 }
 
 i18n.use(initReactI18next).init({
-  resources: { en: { translation: en } },
+  resources: { 
+    en: { translation: en },
+    "zh-CN": { translation: zhCN }
+  },
   lng: detectLocale(),
   fallbackLng: "en",
   interpolation: { escapeValue: false },
@@ -34,4 +38,5 @@ export { i18n, LOCALE_STORAGE_KEY };
  */
 export const SUPPORTED_LOCALES: Record<string, string> = {
   en: "English",
+  "zh-CN": "中文",
 };
