@@ -1,0 +1,410 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "done": "Done",
+    "back": "Back",
+    "next": "Next",
+    "retry": "Retry",
+    "copy": "Copy",
+    "copied": "Copied",
+    "noResults": "No results found.",
+    "error": "Something went wrong.",
+    "selectCompany": "Select company",
+    "all": "All",
+    "active": "Active",
+    "paused": "Paused",
+    "running": "Running",
+    "idle": "Idle",
+    "pending": "Pending",
+    "open": "Open",
+    "blocked": "Blocked",
+    "none": "None",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "yes": "Yes",
+    "no": "No",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "description": "Description",
+    "status": "Status",
+    "type": "Type",
+    "priority": "Priority",
+    "filters": "Filters",
+    "showTerminated": "Show terminated",
+    "live": "Live",
+    "beta": "Beta",
+    "enter": "Enter",
+    "escape": "Escape",
+    "unlimitedBudget": "Unlimited budget",
+    "or": "or",
+    "and": "and",
+    "of": "of",
+    "view": "View"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "inbox": "Inbox",
+    "issues": "Issues",
+    "routines": "Routines",
+    "goals": "Goals",
+    "org": "Org",
+    "skills": "Skills",
+    "costs": "Costs",
+    "gateway": "Gateway",
+    "activity": "Activity",
+    "settings": "Settings",
+    "newIssue": "New Issue",
+    "documentation": "Documentation",
+    "work": "Work",
+    "company": "Company",
+    "projects": "Projects",
+    "agents": "Agents",
+    "approvals": "Approvals"
+  },
+  "layout": {
+    "skipToMain": "Skip to Main Content",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "instanceSettings": "Instance settings",
+    "openSidebar": "Open sidebar",
+    "closeSidebar": "Close sidebar"
+  },
+  "sidebar": {
+    "liveCount": "{{count}} live"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcomeMessage": "Welcome to Paperclip. Set up your first company and agent to get started.",
+    "getStarted": "Get Started",
+    "selectCompany": "Create or select a company to view the dashboard.",
+    "recentActivity": "Recent Activity",
+    "recentTasks": "Recent Tasks",
+    "noTasks": "No tasks yet.",
+    "agentsEnabled": "Agents Enabled",
+    "tasksInProgress": "Tasks In Progress",
+    "monthSpend": "Month Spend",
+    "pendingApprovals": "Pending Approvals",
+    "youHaveNoAgents": "You have no agents.",
+    "createOneHere": "Create one here",
+    "unlimitedBudget": "Unlimited budget",
+    "awaitingBoardReview": "Awaiting board review",
+    "budgetOverridesAwaiting": "{{count}} budget overrides awaiting board review",
+    "runActivity": "Run Activity",
+    "issuesByPriority": "Issues by Priority",
+    "issuesByStatus": "Issues by Status",
+    "successRate": "Success Rate",
+    "last14Days": "Last 14 days",
+    "running": "{{count}} running",
+    "pausedAgents": "{{count}} paused",
+    "errors": "{{count}} errors",
+    "openTasks": "{{count}} open",
+    "blockedTasks": "{{count}} blocked",
+    "budgetPercent": "{{percent}}% of {{budget}} budget",
+    "activeBudgetIncident": "{{count}} active budget incident",
+    "activeBudgetIncidents": "{{count}} active budget incidents",
+    "agentsPaused": "{{count}} agents paused",
+    "projectsPaused": "{{count}} projects paused",
+    "pendingBudgetApprovals": "{{count}} pending budget approvals",
+    "openBudgets": "Open budgets"
+  },
+  "agents": {
+    "title": "Agents",
+    "selectCompany": "Select a company to view agents.",
+    "createFirst": "Create your first agent to get started.",
+    "newAgent": "New Agent",
+    "noMatch": "No agents match the selected filter.",
+    "noOrgHierarchy": "No organizational hierarchy defined.",
+    "agentCount": "{{count}} agent",
+    "agentCount_plural": "{{count}} agents",
+    "error": "Error"
+  },
+  "agentDetail": {
+    "title": "Agent",
+    "overview": "Overview",
+    "runs": "Runs",
+    "config": "Config",
+    "configuration": "Configuration",
+    "skills": "Skills",
+    "skillsApplied": "Skills applied",
+    "selectedSkills": "Selected skills",
+    "input": "Input",
+    "output": "Output",
+    "cached": "Cached",
+    "cost": "Cost",
+    "after": "After",
+    "failureDetails": "Failure details",
+    "noRuns": "No runs yet.",
+    "startRun": "Start Run",
+    "stopRun": "Stop Run",
+    "pauseAgent": "Pause Agent",
+    "resumeAgent": "Resume Agent",
+    "deleteAgent": "Delete Agent"
+  },
+  "issues": {
+    "title": "Issues",
+    "selectCompany": "Select a company to view issues.",
+    "newIssue": "New Issue",
+    "noIssues": "No issues yet.",
+    "addIssue": "Add Issue"
+  },
+  "issueDetail": {
+    "title": "Issue",
+    "addDescription": "Add a description...",
+    "showProperties": "Show properties",
+    "noCompanySelected": "No company selected"
+  },
+  "myIssues": {
+    "title": "My Issues",
+    "selectCompany": "Select a company to view your issues.",
+    "noIssues": "No issues assigned to you."
+  },
+  "projects": {
+    "title": "Projects",
+    "selectCompany": "Select a company to view projects.",
+    "noProjects": "No projects yet.",
+    "addProject": "Add Project"
+  },
+  "projectDetail": {
+    "title": "Project",
+    "overview": "Overview",
+    "issues": "Issues",
+    "workspaces": "Workspaces",
+    "configuration": "Configuration",
+    "budget": "Budget"
+  },
+  "goals": {
+    "title": "Goals",
+    "selectCompany": "Select a company to view goals.",
+    "noGoals": "No goals yet.",
+    "addGoal": "Add Goal",
+    "addDescription": "Add a description...",
+    "showProperties": "Show properties",
+    "noCompanySelected": "No company selected"
+  },
+  "approvals": {
+    "title": "Approvals",
+    "noPending": "No pending approvals.",
+    "noApprovals": "No approvals yet.",
+    "approval": "Approval",
+    "approveFailed": "Failed to approve",
+    "rejectFailed": "Failed to reject",
+    "revisionFailed": "Revision request failed",
+    "resubmitFailed": "Resubmit failed",
+    "commentFailed": "Comment failed",
+    "deleteFailed": "Delete failed",
+    "reviewLinkedIssues": "Review linked issues",
+    "reviewLinkedIssue": "Review linked issue",
+    "openHiredAgent": "Open hired agent",
+    "backToApprovals": "Back to approvals",
+    "deleteDisapproved": "Delete this disapproved agent? This cannot be undone.",
+    "board": "Board",
+    "addComment": "Add a comment...",
+    "posting": "Posting…",
+    "postComment": "Post comment",
+    "approvalConfirmed": "Approval confirmed",
+    "requestedBy": "Requested by",
+    "linkedIssues": "Linked Issues",
+    "approve": "Approve",
+    "reject": "Reject",
+    "requestRevision": "Request revision",
+    "resubmit": "Resubmit"
+  },
+  "routines": {
+    "title": "Routines",
+    "selectCompany": "Select a company to view routines.",
+    "noRoutines": "No routines yet.",
+    "addRoutine": "Add Routine",
+    "newRoutine": "New Routine"
+  },
+  "activity": {
+    "title": "Activity",
+    "selectCompany": "Select a company to view activity.",
+    "filterByType": "Filter by type",
+    "noActivity": "No activity yet."
+  },
+  "costs": {
+    "title": "Costs",
+    "selectCompany": "Select a company to view costs.",
+    "overview": "Overview",
+    "budgets": "Budgets",
+    "providers": "Providers",
+    "billers": "Billers",
+    "finance": "Finance",
+    "financeLedger": "Finance ledger",
+    "inferenceLedger": "Inference ledger",
+    "byAgent": "By agent",
+    "byProject": "By project",
+    "byBiller": "By biller",
+    "budgetControlPlane": "Budget control plane",
+    "activeIncidents": "Active incidents",
+    "allProviders": "All providers",
+    "allBillers": "All billers"
+  },
+  "companies": {
+    "title": "Companies",
+    "createFirst": "Create your first company",
+    "getStarted": "Get started by creating a company.",
+    "newCompany": "New Company",
+    "createAnother": "Create another company"
+  },
+  "companySettings": {
+    "title": "Company Settings",
+    "saved": "Saved",
+    "orgChart": "Org Chart"
+  },
+  "companySkills": {
+    "title": "Skills",
+    "source": "Source",
+    "pin": "Pin",
+    "upToDate": "Up to date",
+    "key": "Key",
+    "mode": "Mode",
+    "usedBy": "Used by",
+    "noAgents": "No agents attached",
+    "addSkillSource": "Add a skill source",
+    "searchGitHub": "Search GitHub"
+  },
+  "companyExport": {
+    "title": "Export",
+    "packageFiles": "Package files"
+  },
+  "companyImport": {
+    "title": "Import",
+    "importSource": "Import source",
+    "adapters": "Adapters",
+    "createNewCompany": "Create new company",
+    "renameOnConflict": "Rename on conflict",
+    "skipOnConflict": "Skip on conflict",
+    "replaceExisting": "Replace existing",
+    "packageFiles": "Package files"
+  },
+  "instance": {
+    "setupRequired": "Instance setup required",
+    "bootstrapInviteActive": "No instance admin exists yet. A bootstrap invite is already active. Check your Paperclip startup logs for the first admin invite URL, or run this command to rotate it:",
+    "bootstrapNoInvite": "No instance admin exists yet. Run this command in your Paperclip environment to generate the first admin invite URL:",
+    "general": "General",
+    "heartbeats": "Heartbeats",
+    "experimental": "Experimental",
+    "plugins": "Plugins",
+    "adapters": "Adapters"
+  },
+  "auth": {
+    "paperclip": "Paperclip",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "createAccount": "Create Account",
+    "login": "Login"
+  },
+  "boardClaim": {
+    "unavailable": "Claim challenge unavailable",
+    "claimed": "Board ownership claimed",
+    "openBoard": "Open board",
+    "signInRequired": "Sign in required",
+    "claimOwnership": "Claim Board ownership"
+  },
+  "cliAuth": {
+    "unavailable": "CLI auth challenge unavailable",
+    "approved": "CLI access approved",
+    "signInRequired": "Sign in required",
+    "approveCli": "Approve Paperclip CLI access",
+    "command": "Command",
+    "client": "Client",
+    "requestedAccess": "Requested access",
+    "requestedCompany": "Requested company",
+    "approve": "Approve",
+    "deny": "Deny"
+  },
+  "invite": {
+    "title": "Invitation"
+  },
+  "notFound": {
+    "title": "Not Found",
+    "companyNotFound": "Company not found",
+    "pageNotFound": "Page not found",
+    "routeNotExist": "This route does not exist."
+  },
+  "onboarding": {
+    "addAgent": "Add Agent",
+    "startOnboarding": "Start Onboarding",
+    "addAnotherAgent": "Add another agent to {{name}}",
+    "createAnotherCompany": "Create another company",
+    "createFirstCompany": "Create your first company",
+    "runAgainAgent": "Run onboarding again to add an agent and a starter task for this company.",
+    "runAgainCompany": "Run onboarding again to create another company and seed its first agent.",
+    "getStartedFirst": "Get started by creating a company and your first agent."
+  },
+  "commandPalette": {
+    "placeholder": "Search…",
+    "noResults": "No results found."
+  },
+  "newIssueDialog": {
+    "title": "New Issue",
+    "titlePlaceholder": "Issue title",
+    "descriptionPlaceholder": "Add a description..."
+  },
+  "newProjectDialog": {
+    "title": "New Project"
+  },
+  "newGoalDialog": {
+    "title": "New Goal"
+  },
+  "newAgentDialog": {
+    "title": "New Agent"
+  },
+  "agentConfig": {
+    "model": "Model",
+    "adapter": "Adapter",
+    "rootPath": "Root path",
+    "systemPrompt": "System prompt"
+  },
+  "gatewayRouting": {
+    "title": "Gateway"
+  },
+  "pluginManager": {
+    "title": "Plugins"
+  },
+  "adapterManager": {
+    "title": "Adapters"
+  },
+  "orgChart": {
+    "title": "Org"
+  },
+  "designGuide": {
+    "title": "Design Guide"
+  },
+  "transcript": {
+    "noTranscript": "No transcript available.",
+    "thinking": "Thinking…"
+  },
+  "status": {
+    "active": "Active",
+    "running": "Running",
+    "paused": "Paused",
+    "idle": "Idle",
+    "error": "Error",
+    "terminated": "Terminated",
+    "queued": "Queued",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Cancelled"
+  },
+  "executionWorkspace": {
+    "title": "Execution Workspace"
+  }
+}
