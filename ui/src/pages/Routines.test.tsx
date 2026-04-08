@@ -327,6 +327,8 @@ describe("Routines page", () => {
         ["agent-1", { name: "Agent One" }],
         ["agent-2", { name: "Agent Two" }],
       ]),
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ((k: string) => k) as any,
     );
 
     expect(groups.map((group) => group.label)).toEqual(["Project Alpha", "Project Beta"]);
