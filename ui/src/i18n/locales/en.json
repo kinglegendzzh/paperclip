@@ -279,7 +279,17 @@
     "createFirst": "Create your first company",
     "getStarted": "Get started by creating a company.",
     "newCompany": "New Company",
-    "createAnother": "Create another company"
+    "createAnother": "Create another company",
+    "loading": "Loading companies...",
+    "rename": "Rename",
+    "deleteCompany": "Delete company",
+    "unlimitedBudget": "Unlimited",
+    "created": "Created {{time}}",
+    "deleteConfirmText": "Are you sure you want to delete this company?",
+    "agent_one": "agent",
+    "agent_other": "agents",
+    "issue_one": "issue",
+    "issue_other": "issues"
   },
   "companySettings": {
     "title": "Company Settings",
@@ -552,6 +562,9 @@
     "packageFiles": "Package files"
   },
   "instance": {
+    "setupRequired": "Setup Required",
+    "bootstrapInviteActive": "Looks like you're claiming the primary bootstrap invite for this instance. Continue below.",
+    "bootstrapNoInvite": "You'll need a bootstrap or CLI access link to configure the initial admin account for this instance.",
     "title": "Instance Settings",
     "general": "General",
     "experimental": "Experimental",
